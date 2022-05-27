@@ -1,7 +1,7 @@
 ---
 title: Openrefine activity
 nav: false
-description: `OpenRefine` is a free tool for cleaning messy data. 
+description: OpenRefine is a free tool for cleaning messy data. 
 ---
 
 ## Cleaning your data with OpenRefine
