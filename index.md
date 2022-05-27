@@ -32,7 +32,7 @@ By the end of the workshop, you should be able to:
 - Identify and select at least one new digital tool appropriate to your own research workflow;
 - Explain how research data can be protected using security and backup tools;
 - Demonstrate simple data visualisation techniques using sample data; and
-- Locate ongoing technical and research support from the University.
+- Locate ongoing technical and research support from the University. 
 
 <i class="bi-alarm-clock"></i>
 
