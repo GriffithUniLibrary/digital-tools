@@ -8,9 +8,9 @@ nav: false
 {% capture installteams %}
 Microsoft Teams is a collaboration tool that provides chat, videoconference and file sharing. This workshop will be conducted using Teams. It is possible to run Teams inside a web browser but you will find it much more convenient to download the desktop application.
 
-1.	Go to the [Teams download page](https://teams.microsoft.com/downloads)
-2.	Click `Download Teams`
-3.	Complete the installation per your operating system
+1. Go to the [Teams download page](https://teams.microsoft.com/downloads)
+2. Click `Download Teams`
+3. Complete the installation per your operating system
 
 {% endcapture %}
 
