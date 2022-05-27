@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: default
+description: Become familiar with a wide range of digital tools available to assist you throughout your research journey.
 ---
 
 # Digital Tools for Research
