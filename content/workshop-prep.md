@@ -13,6 +13,9 @@ Microsoft Teams is a collaboration tool that provides chat, videoconference and 
 3.	Complete the installation per your operating system
 
 {% endcapture %}
+
+{% include accordion.html title="Install teams" text1=installteams %}
+
 {% include card.html header="<i class='fas fa-user-friends'></i> Install Microsoft Teams" text=installteams %}
 
 {% capture installtableau %}
