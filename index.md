@@ -6,6 +6,8 @@ description: Become familiar with a wide range of digital tools available to ass
 
 # Digital Tools for Research
 
+> Become familiar with a wide range of digital tools available to assist you throughout your research journey.
+
 {% capture workshopinfo %}
 
 This site is designed as a companion to [Griffith Library's](https://www.griffith.edu.au/library) Digital Tools for Research workshop, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development). It can also be treated as a standalone, self-paced tutorial.
@@ -20,10 +22,6 @@ This site is designed as a companion to [Griffith Library's](https://www.griffit
 
 {% include toc.html %}
 
-## About this workshop
-
-> Become familiar with a wide range of digital tools available to assist you throughout your research journey.
-
 {% capture outcomes %}
 
 By the end of the workshop, you should be able to: 
@@ -32,13 +30,9 @@ By the end of the workshop, you should be able to:
 - Identify and select at least one new digital tool appropriate to your own research workflow;
 - Explain how research data can be protected using security and backup tools;
 - Demonstrate simple data visualisation techniques using sample data; and
-- Locate ongoing technical and research support from the University. 
+- Locate ongoing technical and research support from the University.
 
-<i class="bi-alarm-clock"></i>
-
-<i class="bi-github" role="img" aria-label="GitHub"></i>
-
-<img src="_includes/bootstrap-icons/activity.svg" alt="Bootstrap">
+{% include icon.html icon=bootstrap }
 
 {% endcapture %}
 
