@@ -5,7 +5,9 @@
 {% endcapture %}
 {% include alert.html text=ftf color="warning" %}
 
-Your data storage location is critical. It needs to be three things: reliable, secure, and backed up. 
+Your data storage location is critical. It needs to be three things: reliable, secure, and backed up.
+
+<i class="bi-alarm-clock"></i>
 
 ### Reliability
 
