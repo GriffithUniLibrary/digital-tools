@@ -111,12 +111,10 @@ Tableau is a data visualisation software. There are two versions: Tableau Public
 
 {% include card.html header="Install required software" text=preparationblock %}
 
-## Preliminary activity
-
+{% capture activitytext %}
 To start with, why not start by putting a number on your own digital toolbox? Take a moment to estimate how many digital tools you use in your research workflow. Once you have come up with a number, click the button below to see where you stand in relation to other researchers. 
 
 {% capture averagetools %}
-
 The average number of digital tools in a researcher's toolbox is 22. If you count your word processor, image program, notes program, email app and so on, you can see that this is actually a realistic number!
 
 {% include figure.html img="tool-freq-dist.png" alt="Alt text" caption="Histogram of number of tools used by researcher" width="100%" %}
@@ -125,7 +123,18 @@ The average number of digital tools in a researcher's toolbox is 22. If you coun
 
 {% include modal.html button="Show me" color="info" title="Show me the average number of tools used by other researchers" text=averagetools %}
 
-{% include toc.html %}
+{% endcapture %}
+
+{% include jumbotron.html heading="Preliminary activity" text=activitytext %}
+
+<!-- - "heading" = large text on the jumbotron
+- "text" = [optional] paragraph text on the jumbotron
+- "button-text" = [optional] text to add button below paragraph 
+- "button-link" = [optional] button link, full URL
+- "button-color" = [optional] a bootstrap color (primary, secondary, success, danger, warning, info, light, dark, link), or outline color (outline-primary, outline-secondary, outline-success, outline-danger, outline-warning, outline-info, outline-light, outline-dark)
+- "text-color" = [optional] set text color using bootstrap color (primary, secondary, success, danger, warning, info, light, dark, body, muted, white)
+- "bg" = [optional] set background color using bootstrap color (primary, secondary, success, danger, warning, info, light, dark, body, white)
+- "border" = [optional] to add border use true  -->
 
 ------
 
