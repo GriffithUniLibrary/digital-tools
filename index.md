@@ -32,13 +32,11 @@ By the end of the workshop, you should be able to:
 - Demonstrate simple data visualisation techniques using sample data; and
 - Locate ongoing technical and research support from the University.
 
-{% include icon.html icon="bootstrap" %}
-
 {% endcapture %}
 
-{% include card.html header="<i class='bi-mortarboard-fill'></i> Learning outcomes" text=outcomes %}
+{% include card.html header="{% include icon.html icon='mortarboard-fill' %} Learning outcomes" text=outcomes %}
 
-This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) <i class="bi bi-twitter" style="color:#00aced"></i> and [Bosnan](https://twitter.com/jeroenbosman) <i class="bi bi-twitter" style="color:#00aced"></i> of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
+This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) {% include icon.html icon="twitter" %} and [Bosnan](https://twitter.com/jeroenbosman) {% include icon.html icon="twitter" %} of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
 Of course, a real research project does not neatly move from one phase to the next! You will be moving between them all the time. They are convenient categories in which we can place the kinds of tools that assist you when you are doing that kind of work.
 
