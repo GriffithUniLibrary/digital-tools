@@ -14,9 +14,8 @@ Microsoft Teams is a collaboration tool that provides chat, videoconference and 
 
 {% endcapture %}
 
-{% include accordion.html title1="Install teams" text1=installteams %}
 
-{% include card.html header="<i class="bi bi-mortarboard-fill"></i> Install Microsoft Teams" text=installteams %}
+<!-- {% include card.html header="<i class="bi bi-mortarboard-fill"></i> Install Microsoft Teams" text=installteams %} -->
 
 {% capture installtableau %}
 Tableau is a data visualisation software. There are two versions: Tableau Public and Tableau Desktop. Tableau public is free, however your visualisations must be saved in the [Tableau Public Gallery](http://public.tableau.com/gallery/) and therefore is not suitable for confidential or sensitive data. Tableau desktop allows you to connect to more data sources and to save your visualisations locally to your computer. Students and Instructors are eligible for a free one-year license.
@@ -39,11 +38,15 @@ Tableau is a data visualisation software. There are two versions: Tableau Public
 7. Enter your license details in the Tableau application
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-chart-pie'></i> Install Tableau" text=installtableau %}
+
+<!-- {% include card.html header="<i class='fas fa-chart-pie'></i> Install Tableau" text=installtableau %} -->
 
 {% capture installopenrefine %}
 1.	Go to the [OpenRefine download page](https://openrefine.org/download)
 2.	Click on the latest official distribution for your operating system
 3.	Complete the installation per your operating system
 {% endcapture %}
-{% include card.html header="<i class='fas fa-table'></i> Install OpenRefine" text=installopenrefine %}
+
+<!-- {% include card.html header="<i class='fas fa-table'></i> Install OpenRefine" text=installopenrefine %} -->
+
+{% include accordion.html title1="Install Teams" text1=installteams title2="Install Tableau" text2=installtableau title3="Install OpenRefine" text3=installopenrefine %}
