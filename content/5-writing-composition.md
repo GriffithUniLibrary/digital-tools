@@ -29,7 +29,7 @@ All of the programming text editors above support Markdown. Below are some dedic
 
 - **[Manuscripts](https://www.manuscriptsapp.com)**
 
-- **[Authorea](https://www.authorea.com)**: 'Google Docs for scientists', automatic journal submission.
+- **[Authorea](https://www.authorea.com)**: Billed as 'Google Docs for scientists', automatic journal submission.
 
 {% endcapture %}
 {% include card.html header="<i class='fas fa-pencil-alt'></i> Composition tools" text=compostition %}
