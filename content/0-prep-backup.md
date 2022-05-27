@@ -11,6 +11,10 @@ Your data storage location is critical. It needs to be three things: reliable, s
 
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
 
+<img src="../_includes/bootstrap-icons/badge-8k.svg">
+
+<img src="../_includes/bootstrap-icons/badge-8k.svg" alt="Bootstrap" width="32" height="32">
+
 ### Reliability
 
 {% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
