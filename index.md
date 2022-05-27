@@ -54,7 +54,7 @@ This workshop has more show-and-tell about it (in the online version, this might
 
 ## Preparation
 
-<!-- {% capture text %}There are a few things you need to do to get ready for this workshop. Specifically, you'll need to install some software in order to do the exercises listed above. Click on the button below to see instructions on preparing for this workshop. -->
+{% capture preparationblock %}There are a few things you need to do to get ready for this workshop. Specifically, you'll need to install some software in order to do the exercises listed above. Click on the button below to see instructions on preparing for this workshop.
 
 <!-- {% include button.html text="Show me what I need to install" link="content/workshop-prep.html" color="primary" %} -->
 
@@ -108,7 +108,8 @@ Tableau is a data visualisation software. There are two versions: Tableau Public
 {% include accordion.html title1="Install Teams" text1=installteams title2="Install Tableau" text2=installtableau title3="Install OpenRefine" text3=installopenrefine %}
 
 {% endcapture %}
-{% include card.html header="What do I need to do to get ready?" text=text %}
+
+{% include card.html header="What do I need to do to get ready?" text=preparationblock %}
 
 ## Preliminary activity
 
