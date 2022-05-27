@@ -20,7 +20,7 @@ This site is designed as a companion to [Griffith Library's](https://www.griffit
 
 ## About this workshop
 
-Become familiar with a wide range of digital tools available to assist you throughout your research journey.
+> Become familiar with a wide range of digital tools available to assist you throughout your research journey.
 
 {% include toc.html %}
 
