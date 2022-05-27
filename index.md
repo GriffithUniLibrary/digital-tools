@@ -37,7 +37,7 @@ By the end of the workshop, you should be able to:
 {% endcapture %}
 {% include card.html header="Learning outcomes" text=outcomes %}
 
-This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) <i class="fab fa-twitter" style="color:#00aced"></i> and [Bosnan](https://twitter.com/jeroenbosman) <i class="fab fa-twitter" style="color:#00aced"></i> of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
+This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) <i class="bi bi-twitter" style="color:#00aced"></i> and [Bosnan](https://twitter.com/jeroenbosman) <i class="bi bi-twitter" style="color:#00aced"></i> of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
 Of course, a real research project does not neatly move from one phase to the next! You will be moving between them all the time. They are convenient categories in which we can place the kinds of tools that assist you when you are doing that kind of work.
 
