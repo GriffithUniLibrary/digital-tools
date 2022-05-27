@@ -36,6 +36,10 @@ By the end of the workshop, you should be able to:
 
 <i class="bi-alarm-clock"></i>
 
+<i class="bi-github" role="img" aria-label="GitHub"></i>
+
+<img src="_includes/bootstrap-icons/activity.svg" alt="Bootstrap">
+
 {% endcapture %}
 
 {% include card.html header="<i class='bi-mortarboard-fill'></i> Learning outcomes" text=outcomes %}
