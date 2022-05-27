@@ -15,7 +15,7 @@ Microsoft Teams is a collaboration tool that provides chat, videoconference and 
 
 {% endcapture %}
 
-<!-- {% include card.html header="<i class="bi bi-mortarboard-fill"></i> Install Microsoft Teams" text=installteams %} -->
+<!-- {% include card.html header="<i class='bi bi-mortarboard-fill'></i> Install Microsoft Teams" text=installteams %} -->
 
 {% capture installtableau %}
 
