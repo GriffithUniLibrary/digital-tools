@@ -35,7 +35,8 @@ By the end of the workshop, you should be able to:
 - Locate ongoing technical and research support from the University.
 
 {% endcapture %}
-{% include card.html header="<i class='bi bi-mortarboard-fill'></i> Learning outcomes" text=outcomes %}
+
+{% include card.html header="<i class='bi-mortarboard-fill'></i> Learning outcomes" text=outcomes %}
 
 This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) <i class="bi bi-twitter" style="color:#00aced"></i> and [Bosnan](https://twitter.com/jeroenbosman) <i class="bi bi-twitter" style="color:#00aced"></i> of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
@@ -54,7 +55,7 @@ This workshop has more show-and-tell about it (in the online version, this might
 
 ## Preparation
 
-{% capture preparationblock %}There are a few things you need to do to get ready for this workshop. Specifically, you'll need to install some software in order to do the exercises listed above. Click on the button below to see instructions on preparing for this workshop.
+{% capture preparationblock %}
 
 <!-- {% include button.html text="Show me what I need to install" link="content/workshop-prep.html" color="primary" %} -->
 
