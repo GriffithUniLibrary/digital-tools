@@ -18,11 +18,11 @@ This site is designed as a companion to [Griffith Library's](https://www.griffit
     {% include figure.html img="embarking.jpg" alt="Lego submarine floating on the water" caption="Preparing to embark (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
     -->
 
+{% include toc.html %}
+
 ## About this workshop
 
 > Become familiar with a wide range of digital tools available to assist you throughout your research journey.
-
-{% include toc.html %}
 
 {% capture outcomes %}
 
@@ -52,9 +52,58 @@ Of course, a real research project does not neatly move from one phase to the ne
 
 This workshop has more show-and-tell about it (in the online version, this might be more akin to browsing) than a typical workshop. The reason is that, with the variety of researchers that attend this workshop, we cannot be sure that all tools will be relevant to all participants (in fact, we can be sure that the opposite will be true!) Therefore, we will be presenting you with a selection of tools that we think may be useful, and you are welcome to try, adopt and ask questions about any of them. 
 
-{% capture text %}There are a few things you need to do to get ready for this workshop. Specifically, you'll need to install some software in order to do the exercises listed above. Click on the button below to see instructions on preparing for this workshop.
+<!-- {% capture text %}There are a few things you need to do to get ready for this workshop. Specifically, you'll need to install some software in order to do the exercises listed above. Click on the button below to see instructions on preparing for this workshop. -->
 
-{% include button.html text="Show me what I need to install" link="content/workshop-prep.html" color="primary" %}
+<!-- {% include button.html text="Show me what I need to install" link="content/workshop-prep.html" color="primary" %} -->
+
+{% include alert.html text="There are a few pieces of software to install before you start this workshop, so you can take part in the activities." color="primary" %}
+
+{% capture installteams %}
+
+Microsoft Teams is a collaboration tool that provides chat, videoconference and file sharing. This workshop will be conducted using Teams. It is possible to run Teams inside a web browser but you will find it much more convenient to download the desktop application.
+
+1. Go to the [Teams download page](https://teams.microsoft.com/downloads)
+2. Click `Download Teams`
+3. Complete the installation per your operating system
+
+{% endcapture %}
+
+<!-- {% include card.html header="<i class='bi bi-mortarboard-fill'></i> Install Microsoft Teams" text=installteams %} -->
+
+{% capture installtableau %}
+
+Tableau is a data visualisation software. There are two versions: Tableau Public and Tableau Desktop. Tableau public is free, however your visualisations must be saved in the [Tableau Public Gallery](http://public.tableau.com/gallery/) and therefore is not suitable for confidential or sensitive data. Tableau desktop allows you to connect to more data sources and to save your visualisations locally to your computer. Students and Instructors are eligible for a free one-year license.
+
+### Instructions for Tableau Public
+
+1. Go to the [Tableau Public download page](https://public.tableau.com)
+2. Enter your email address
+3. Click on the download link in your email
+4. Complete the installation per your operating system
+
+### Instructions for Tableau Desktop
+
+1. Go to the [Tableau Desktop download page](https://www.tableau.com/en-au/products/desktop/download)
+2. Enter your email address
+3. Click on the download link in your email
+4. Complete the installation per your operating system
+5. Compete the [student license application form](https://www.tableau.com/academic/students#form)
+6. Wait for Tableau to confirm your status and send you your license by email
+7. Enter your license details in the Tableau application
+
+{% endcapture %}
+
+<!-- {% include card.html header="<i class='fas fa-chart-pie'></i> Install Tableau" text=installtableau %} -->
+
+{% capture installopenrefine %}
+1.	Go to the [OpenRefine download page](https://openrefine.org/download)
+2.	Click on the latest official distribution for your operating system
+3.	Complete the installation per your operating system
+{% endcapture %}
+
+<!-- {% include card.html header="<i class='fas fa-table'></i> Install OpenRefine" text=installopenrefine %} -->
+
+{% include accordion.html title1="Install Teams" text1=installteams title2="Install Tableau" text2=installtableau title3="Install OpenRefine" text3=installopenrefine %}
 
 {% endcapture %}
 {% include card.html header="What do I need to do to get ready?" text=text %}
