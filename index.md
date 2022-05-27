@@ -34,6 +34,8 @@ By the end of the workshop, you should be able to:
 - Demonstrate simple data visualisation techniques using sample data; and
 - Locate ongoing technical and research support from the University.
 
+<i class="bi-alarm-clock"></i>
+
 {% endcapture %}
 
 {% include card.html header="<i class='bi-mortarboard-fill'></i> Learning outcomes" text=outcomes %}
