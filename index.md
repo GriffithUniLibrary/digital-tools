@@ -34,7 +34,8 @@ By the end of the workshop, you should be able to:
 
 {% endcapture %}
 
-{% include card.html header="{% include icon.html icon='mortarboard-fill' %} Learning outcomes" text=outcomes %}
+{% capture header %}{% include icon.html icon='mortarboard-fill' %} Learning outcomes{% endcapture %}
+{% include card.html header=header text=outcomes %}
 
 This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) {% include icon.html icon="twitter" %} and [Bosnan](https://twitter.com/jeroenbosman) {% include icon.html icon="twitter" %} of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
