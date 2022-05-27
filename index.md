@@ -26,12 +26,12 @@ This site is designed as a companion to [Griffith Library's](https://www.griffit
 
 {% capture outcomes %}
 
-By the end of the workshop, students should be able to: 
+By the end of the workshop, you should be able to: 
 
-- Identify the various stages of higher degree research and understand that different digital tools are appropriate to each one, 
-- Identify and select at least one new digital tool appropriate to their own research workflow,
-- Explain the importance of protecting research data, as well as knowledge of what backup and storage options are available,
-- Demonstrate simple data visualisation techniques using sample data, and
+- Identify the different digital tools appropriate to various stages of higher degree research;
+- Identify and select at least one new digital tool appropriate to your own research workflow;
+- Explain how research data can be protected using security and backup tools;
+- Demonstrate simple data visualisation techniques using sample data; and
 - Locate ongoing technical and research support from the University.
 
 {% endcapture %}
@@ -109,7 +109,7 @@ Tableau is a data visualisation software. There are two versions: Tableau Public
 
 {% endcapture %}
 
-{% include card.html header="What do I need to do to get ready?" text=preparationblock %}
+{% include card.html header="Install required software" text=preparationblock %}
 
 ## Preliminary activity
 
