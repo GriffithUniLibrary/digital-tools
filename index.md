@@ -32,7 +32,7 @@ By the end of the workshop, you should be able to:
 - Demonstrate simple data visualisation techniques using sample data; and
 - Locate ongoing technical and research support from the University.
 
-{% include icon.html icon="bootstrap" }
+{% include icon.html bootstrap }
 
 {% endcapture %}
 
