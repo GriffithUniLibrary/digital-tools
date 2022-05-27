@@ -16,7 +16,7 @@ Microsoft Teams is a collaboration tool that provides chat, videoconference and 
 
 {% include accordion.html title="Install teams" text1=installteams %}
 
-{% include card.html header="<i class='fas fa-user-friends'></i> Install Microsoft Teams" text=installteams %}
+{% include card.html header="<i class="bi bi-mortarboard-fill"></i> Install Microsoft Teams" text=installteams %}
 
 {% capture installtableau %}
 Tableau is a data visualisation software. There are two versions: Tableau Public and Tableau Desktop. Tableau public is free, however your visualisations must be saved in the [Tableau Public Gallery](http://public.tableau.com/gallery/) and therefore is not suitable for confidential or sensitive data. Tableau desktop allows you to connect to more data sources and to save your visualisations locally to your computer. Students and Instructors are eligible for a free one-year license.
