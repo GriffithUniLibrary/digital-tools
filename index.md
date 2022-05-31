@@ -20,8 +20,6 @@ This site is designed as a companion to [Griffith Library's](https://www.griffit
     {% include figure.html img="embarking.jpg" alt="Lego submarine floating on the water" caption="Preparing to embark (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
     -->
 
-{% include toc.html %}
-
 {% capture outcomes %}
 
 By the end of the workshop, you should be able to: 
@@ -36,6 +34,8 @@ By the end of the workshop, you should be able to:
 
 {% capture header %}{% include icon.html icon='mortarboard-fill' %} Learning outcomes{% endcapture %}
 {% include card.html header=header text=outcomes %}
+
+{% include toc.html %}
 
 This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) {% include icon.html icon="twitter" %} and [Bosnan](https://twitter.com/jeroenbosman) {% include icon.html icon="twitter" %} of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
