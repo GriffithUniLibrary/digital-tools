@@ -1,7 +1,18 @@
+## Programming and writing code
+
+It might be odd to think of coding as a type of writing or compostion, but that's what it is! We've included it here because it can apply equally to all of the other phases of your research (although the analysis phase is probably where it's going to be of most help).
+
+{% capture programminghelp %}
+**Ways to get programming help at Griffith:**
+- [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
+- [Hacky Hour](https://hackyhourgriffith.wordpress.com)
+{% endcapture %}
+{% include alert.html text=programminghelp color="warning" %}
+
 {% capture editors %}
 
 {% capture text %}
-Plain text editors are much more important than you might think. Get yourself a good one.
+A code-focused text editor is an important tool in your research toolbox, even if you don't think of yourself as a coder. Get yourself a good one.
 {% endcapture %}
     
 {% include alert.html text=text color=info %}
