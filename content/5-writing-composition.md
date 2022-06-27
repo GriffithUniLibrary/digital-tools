@@ -1,11 +1,11 @@
-## Composition
-
-{% capture markdowntools %}
+## Markdown
 
 {% capture aboutmarkdown %}
 `Markdown` is a simple and popular text formatting syntax. It has many advantages for writing for the web, including the fact that it produces plain text files, which are easily shared. It's worth becoming familiar with it. This site is written in Markdown.
 {% endcapture %}
 {% include alert.html text=aboutmarkdown color="info" %}
+
+{% capture markdowntools %}
 
 All of the programming text editors above support Markdown. Below are some dedicated Markdown editors. 
 
@@ -20,8 +20,24 @@ All of the programming text editors above support Markdown. Below are some dedic
 {% endcapture %}
 {% include card.html header="<i class='fab fa-markdown'></i> Markdown editors" text=markdowntools %}
 
+## LaTeX
+
+`LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is very well suited to scientific and mathematical notation. It is format agnostic your document structure, headings and figures can use any style you like. 
+
+{% capture latextools %}
+
+- **[Overleaf](https://www.overleaf.com)**: is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
+
+{% endcapture %}
+{% include card.html header="LaTeX composition tools" text=telatextoolsxt %}
+
+## Pandoc
+
+`Pandoc` is an open-source tool that can convert just about any document format into just about any other document format! You can use it to convert your `Markdown` or `LaTeX` documents into Word — even automatically if you want!
+
+## Composition tools
+
 {% capture compostition %}
-- **[LaTeX](https://www.overleaf.com)**: `LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is format agnostic your document structure, headings and figures can use any style you like. Overleaf is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
 
 - **[Scrivener](https://www.literatureandlatte.com/scrivener/)**: designed for long-form writing
 

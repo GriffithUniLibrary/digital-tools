@@ -2,13 +2,6 @@
 
 It might be odd to think of coding as a type of writing or compostion, but that's what it is! We've included it here because it can apply equally to all of the other phases of your research (although the analysis phase is probably where it's going to be of most help).
 
-{% capture programminghelp %}
-**Ways to get programming help at Griffith:**
-- [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
-- [Hacky Hour](https://hackyhourgriffith.wordpress.com)
-{% endcapture %}
-{% include alert.html text=programminghelp color="warning" %}
-
 {% capture editors %}
 
 {% capture text %}
@@ -39,7 +32,7 @@ Microsoft's editor is free, highly extensible (meaning it has lots of plugins to
 {% include alert.html text=besttext color="primary" %}
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-superscript'></i> Programming text editors" text=editors img="code-editor.png" %}
+{% include card.html header="<i class='fas fa-superscript'></i> Code editors" text=editors img="code-editor.png" %}
 
 {% capture environments %}
 
@@ -64,3 +57,10 @@ Microsoft's editor is free, highly extensible (meaning it has lots of plugins to
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-bug'></i> Development languages and environments" text=environments %}
+
+{% capture programminghelp %}
+**Ways to get programming help at Griffith:**
+- [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
+- [Hacky Hour](https://hackyhourgriffith.wordpress.com)
+{% endcapture %}
+{% include alert.html text=programminghelp color="info" %}
