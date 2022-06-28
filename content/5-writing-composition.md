@@ -23,7 +23,7 @@ All of the programming text editors above support Markdown. Below are some dedic
 ## LaTeX
 
 {% capture aboutlatex %}
-`LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is very well suited to scientific and mathematical notation. It is format agnostic your document structure, headings and figures can use any style you like.
+`LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is very well suited to scientific and mathematical notation. In LaTeX, document content and structure is separated from formatting and style, so you can work on one without worrying about the other. Here is a [good explanation](https://nitens.org/w/latex/) of why LaTeX is a useful tool for academic and scientific writing.
 {% endcapture %}
 {% include alert.html text=aboutlatex color="primary" %}
 
