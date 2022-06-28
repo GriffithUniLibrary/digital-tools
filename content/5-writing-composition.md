@@ -3,7 +3,7 @@
 {% capture aboutmarkdown %}
 `Markdown` is a simple and popular text formatting syntax. It has many advantages for writing for the web, including the fact that it produces plain text files, which are easily shared. It's worth becoming familiar with it. This site is written in Markdown.
 {% endcapture %}
-{% include alert.html text=aboutmarkdown color="info" %}
+{% include alert.html text=aboutmarkdown color="primary" %}
 
 {% capture markdowntools %}
 
@@ -22,14 +22,18 @@ All of the programming text editors above support Markdown. Below are some dedic
 
 ## LaTeX
 
-`LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is very well suited to scientific and mathematical notation. It is format agnostic your document structure, headings and figures can use any style you like. 
+{% capture aboutlatex %}
+`LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is very well suited to scientific and mathematical notation. It is format agnostic your document structure, headings and figures can use any style you like.
+{% endcapture %}
+{% include alert.html text=aboutlatex color="primary" %}
 
 {% capture latextools %}
 
 - **[Overleaf](https://www.overleaf.com)**: is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
+- TeXShop: A venerable Mac-based LaTex editor
 
 {% endcapture %}
-{% include card.html header="LaTeX composition tools" text=telatextoolsxt %}
+{% include card.html header="LaTeX composition tools" text=latextools %}
 
 ## Pandoc
 
