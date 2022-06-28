@@ -10,7 +10,7 @@ A code-focused text editor is an important tool in your research toolbox, even i
     
 {% include alert.html text=text color=info %}
 
-These text editors are all oriented towards programming and editing code. They have features that are helpful when working in code, like syntax coloring and code folding. Even if you don't consider yourself a programmer, you'll find a good text editor invaluable.
+These text editors are all oriented towards programming and editing code. They have features that are helpful when working in code, like syntax coloring and code folding.
 
 - **[Sublime Text](https://www.sublimetext.com)**: one of the most popular programming text editors for Windows
 

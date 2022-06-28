@@ -25,7 +25,7 @@ All of the programming text editors above support Markdown. Below are some dedic
 {% capture aboutlatex %}
 `LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is very well suited to scientific and mathematical notation. It is format agnostic your document structure, headings and figures can use any style you like.
 {% endcapture %}
-{% include alert.html text=aboutlatex color="primary" img="variants_latex.jpg" %}
+{% include alert.html text=aboutlatex color="primary" %}
 
 {% capture latextools %}
 
@@ -33,7 +33,7 @@ All of the programming text editors above support Markdown. Below are some dedic
 - TeXShop: A venerable Mac-based LaTex editor
 
 {% endcapture %}
-{% include card.html header="LaTeX composition tools" text=latextools %}
+{% include card.html header="LaTeX composition tools" text=latextools img="variants_latex.jpg" %}
 
 ## Pandoc
 
