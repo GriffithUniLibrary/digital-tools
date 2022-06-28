@@ -7,7 +7,7 @@ description: Analysing your data will happen over several stages.
 
 {% include figure.html img="analysis.jpg" alt="Lego figure of Marie Curie with flasks" caption="What will I do with it all? (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
 
-## Preparing to analyse
+## Data cleanup
 
 {% capture relatedworkshops %}
 

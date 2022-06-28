@@ -1,7 +1,7 @@
 ## Markdown
 
 {% capture aboutmarkdown %}
-`Markdown` is a simple and popular text formatting syntax. It has many advantages for writing for the web, including the fact that it produces plain text files, which are easily shared. It's worth becoming familiar with it. This site is written in Markdown.
+`Markdown` is a simple and popular text formatting syntax. It has many advantages for writing: it is stable, reliable, easy to read and produces plain text files which are easily shared. It's worth becoming familiar with it. This site is written in Markdown.
 {% endcapture %}
 {% include alert.html text=aboutmarkdown color="primary" %}
 
