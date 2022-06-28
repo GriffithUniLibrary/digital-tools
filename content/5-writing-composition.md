@@ -30,7 +30,7 @@ All of the programming text editors above support Markdown. Below are some dedic
 {% capture latextools %}
 
 - **[Overleaf](https://www.overleaf.com)**: is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
-- TeXShop: A venerable Mac-based LaTex editor
+- **[TeXShop](https://pages.uoregon.edu/koch/texshop/)**: A venerable Mac-based LaTex editor. 
 
 {% endcapture %}
 {% include card.html header="LaTeX composition tools" text=latextools img="variants_latex.jpg" %}
