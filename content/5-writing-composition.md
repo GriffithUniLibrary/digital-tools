@@ -33,7 +33,7 @@ All of the programming text editors above support Markdown. Below are some dedic
 - **[TeXShop](https://pages.uoregon.edu/koch/texshop/)**: A venerable Mac-based LaTex editor. 
 
 {% endcapture %}
-{% include card.html header="LaTeX composition tools" text=latextools img="variants_latex.jpg" %}
+{% include card.html header="LaTeX composition tools" text=latextools img="latexit.png" %}
 
 ## Pandoc
 
