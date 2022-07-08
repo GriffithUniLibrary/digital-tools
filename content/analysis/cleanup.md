@@ -13,7 +13,7 @@ description: >
 
 Want to try it out? 
 
-{% include button.html text="Go to the OpenRefine activity" link="activity-openrefine.html" color="info" %}
+{% include button.html text="Go to the OpenRefine activity" link="../activity-openrefine.html" color="info" %}
 
 {% endcapture %}
 
