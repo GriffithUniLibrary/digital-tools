@@ -43,3 +43,20 @@ You could, but you would be missing out on a few of the key benefits of password
 {% endcapture %}
 {% include modal.html button="Why can't I just let my browser remember my passwords?" color="info" title="Why not save in a browser" text=browser %}
 
+----
+
+### Passkeys
+
+{% capture passkeys %}
+
+Soon, there won't even be a need to keep a password manager handy, let alone remember all you passwords. A new standard being adopted and promoted by [all major technolgy vendors](https://fidoalliance.org), will allow your device (whether it's a computer or a mobile device) to generate unique, unguessable and unhackable login keys. Because they're stored by your device, you'll never forget them. And because you never see them, no scammer can ever trick you into divulging them.
+
+Here's a [video from Apple's 2022 Developer Conference](https://developer.apple.com/videos/play/wwdc2022/10092/) that explains things in more depth.
+
+{% capture loginalert %}
+Expect passkeys to become a login option for many of the major technology platforms in the next 12-24 months.
+{% endcapture %}
+{% include alert.html text=loginalert color="warning" %}
+
+{% endcapture %}
+{% include card.html header="The future is passwordless" text=passkeys %}
