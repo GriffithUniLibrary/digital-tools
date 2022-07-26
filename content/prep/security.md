@@ -45,7 +45,7 @@ You could, but you would be missing out on a few of the key benefits of password
 
 ----
 
-### Passkeys
+### The future is passwordless
 
 {% capture passkeys %}
 
@@ -59,4 +59,4 @@ Expect passkeys to become a login option for many of the major technology platfo
 {% include alert.html text=loginalert color="warning" %}
 
 {% endcapture %}
-{% include card.html header="The future is passwordless" text=passkeys %}
+{% include card.html header="About passkeys" text=passkeys %}
