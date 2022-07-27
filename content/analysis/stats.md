@@ -33,13 +33,11 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
  
 {% capture relatedworkshops %}
 
-**Related workshops**
-
 - [Statistical Training Program](https://app.secure.griffith.edu.au/events/category/statistical-training-program)
 
 {% endcapture %}
 
-{% include alert.html text=relatedworkshops color="warning" %}
+{% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %}
 
  {% endcapture %}
 

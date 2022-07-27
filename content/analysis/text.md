@@ -16,7 +16,7 @@ description: >
 
 {% endcapture %}
 
-{% include accordion.html title1="**Related workshops**" text1=relatedworkshops open=true %} 
+{% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %} 
 
 {% capture textanalysis %}
 
