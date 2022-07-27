@@ -19,16 +19,21 @@ Many (too many) people re-use the same password or minor variations across multi
 {% endcapture %}
 {% include alert.html text=pwned color="danger" %}
 
+### Passwords vs passphrases
+
+The best *password* to use is a *passphrase*. The *length* of your password is more important than whether it includes special charaters, numbers and so on.
 
 {% capture passphrase %}
-The best way to keep your passwords *different and secure* is to use a password manager. ⭐️ The best *password* to use is a *passphrase*.
+
 {% include figure.html img="password_strength.png" alt="Comic explaining why passphrases are superior to complex passwords" caption="This comic by XKCD (https://xkcd.com/936/) explains it best. Published under a CC-BY-NC 2.5 License." width="100" %}
 {% endcapture %}
 {% include alert.html text=passphrase color="info" %}
 
-{% capture pwmanagers %}
+### Password managers
 
-Getting used to using a password manager is a great investment in your overall experience of using the Internet. Most password managers have browser plugins that can fill login forms automatically. 
+The best way to keep your passwords *different and secure* is to use a password manager. Getting used to using a password manager is a great investment in your overall experience of using the Internet. Most password managers have browser plugins that can fill login forms automatically. 
+
+{% capture pwmanagers %}
 
  - **[LastPass](https://www.griffith.edu.au/passwords/lastpass)**: Griffith's supported password manager. It is available to all staff. 
 
@@ -46,7 +51,7 @@ Although LastPass is a partner of Griffith and is offered free to staff, the app
 {% include alert.html text=pwrecommended color="primary" %}
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-key'></i> Password managers" text=pwmanagers %}
+{% include card.html header="<i class='bi bi-key-fill'></i> Most popular Password managers" text=pwmanagers %}
 
 {% capture browser %}
 You could, but you would be missing out on a few of the key benefits of password managers, like checking that your passwords aren't being reused across services, generating new passwords for you and syncing your passwords across mobile and desktop devices.
