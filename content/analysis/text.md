@@ -18,8 +18,6 @@ description: >
 
 {% include accordion.html title1="Related workshops" text1=relatedworkshops %} 
 
-{% include alert.html text=relatedworkshops color="warning" %}
-
 {% capture textanalysis %}
 
 - **[NVIVO](https://www.griffith.edu.au/student-computing/available-software)**: version 12 integrates with Endnote and other tools
