@@ -42,4 +42,4 @@ description: >
 
 Want to try out analysing some text? This is fun!
 
-{% include button.html text="Go to the Voyant activity" link="../content/activity-voyant.html" color="info" %}
+{% include button.html text="Go to the Voyant activity" link="/content/activity-voyant.html" color="info" %}
