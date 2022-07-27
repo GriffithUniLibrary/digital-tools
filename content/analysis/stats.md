@@ -43,9 +43,7 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
 
  {% endcapture %}
 
-{% include icon.html icon='robot' %}
-
-{% include card.html header="Quantitative analysis" text=quant %}
+{% include card.html header={% include icon.html icon='robot' %}&"Quantitative analysis" text=quant %}
 
 ----
 
