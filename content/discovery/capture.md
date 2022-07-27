@@ -46,11 +46,11 @@ In the not so recent past, the only option to transcribe voice recordings into t
 
 - **[eResearch speech-to-text service](https://www.griffith.edu.au/eresearch-services/speech-to-text)**: Griffith's eResearch team offers a speech to text service to Griffith researchers on a fee for service basis ($2 per audio hour). It uses Microsoft's Azure transcription service.
 
-- **[YouTube](https://www.youtube.com)**: It turns out that YouTube is a convenient way to transcribe text, if you have no other option. You'll need to convert your audio into a video file, then upload it. YouTube will auto-caption the file.
+- **[YouTube](https://www.youtube.com)**: YouTube is a convenient way to transcribe text, if you have no other option. You'll need to convert your audio into a video file, then upload it. YouTube will auto-caption the file.
 
 - **[Adobe Premiere Pro](https://www.adobe.com)**: Premiere Pro also has an auto-captioning feature that you can use to generate and download transcriptions from.
 
-- [Descript](https://www.descript.com): Originally a podcasting tool, Descript does a great job of transcribing and can distinguish between speakers on a recording. Two hours of transcription free per month.
+- **[Descript](https://www.descript.com)**: Originally a podcasting tool, Descript does a great job of transcribing and can distinguish between speakers on a recording. Two hours of transcription free per month.
 
 {% capture besttranscription %}
 **Our recommendation: eResearch**
