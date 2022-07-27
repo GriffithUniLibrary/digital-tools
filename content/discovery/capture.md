@@ -1,7 +1,7 @@
 ---
 section_id: Discovery
 nav_order: 4
-title: Data dapture
+title: Data capture
 topics: Document scanners; Voice to text
 description: >
     Reduce the time-consuming task of converting analogue information like printed text and recorded voices into a digital format for analysis.
