@@ -57,4 +57,4 @@ Check out this helpful [guide to getting started with LaTeX](https://guides.nyu.
 
 `Pandoc` is an open-source tool that can convert just about any document format into just about any other document format! You can use it to convert your `Markdown` or `LaTeX` documents into Word — even automatically if you want!
 
-You can read an excellent tutorial on academic writing using Markdown and Pandoc [here](https://evanwill.github.io/write-md/).
+You can read an excellent tutorial on academic writing using Markdown and Pandoc [here](https://github.com/GriffithUniLibrary/digital-tools).
