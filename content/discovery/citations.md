@@ -19,6 +19,8 @@ You can use tools to recommend similar or related papers to those you have. Some
 
 - **[ResearchRabbit](https://www.researchrabbit.ai)**: Billing itself as 'Spotify for researchers', ResearchRabbit is the newest of the tools here. It generates recommendations based on your library and your preferences. It can also email you with new relevant research, like Google Scholar.
 
+- **[VOSViewer](https://www.vosviewer.com)**: Describes itself as a 'software tool for constructing and visualizing bibliometric networks'. It can create visual networks of publications based on many factors, such as author, institution, co-citation or co-authorship.
+
 - **[CitNet Explorer](https://www.citnetexplorer.nl/)**: CitNetExplorer is a software tool for visualizing and analyzing citation networks of scientific publications. It has not been updated in some time. 
 
 {% capture bestcitengine %}
