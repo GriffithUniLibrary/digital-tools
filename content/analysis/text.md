@@ -10,13 +10,13 @@ description: >
 
 {% capture relatedworkshops %}
 
-**Related workshops**
-
 - [Leximancer workshops](https://app.secure.griffith.edu.au/events/search?sdata=leximancer)
 - [Digital Texts and Tools for HASS Research](https://app.secure.griffith.edu.au/events/search?sdata=HASS)
 - [Webscraping](https://app.secure.griffith.edu.au/events/search?sdata=scraping)
 
 {% endcapture %}
+
+{% include accordion.html title1="Related workshops" text1=relatedworkshops %} 
 
 {% include alert.html text=relatedworkshops color="warning" %}
 
@@ -38,7 +38,9 @@ description: >
 
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-paragraph'></i> Text mining and sentiment analysis" text=textanalysis %}
+{% capture taheader %}{% include icon.html icon='chat-left-text' %} Text mining and sentiment analysis{% endcapture %}
+
+{% include card.html header=taheader text=textanalysis %}
 
 Want to try out analysing some text? This is fun!
 
