@@ -2,15 +2,15 @@
 section: Preparation
 nav_order: 2
 title: Security 
-topics: Password managers; Passkeys
+topics: Passphrases; Password managers; Passkeys
 description: >
-    Just like backups, the best security protocol is the one you will use. 
+    Just like backups, *the best security protocol is the one you will use.* 
 # youtubeid: moJgWrD6dwg
 ---
 
 ## Passwords
 
-Many (too many) people re-use the same password or minor variations across multiple sites. _This is a terrible idea._ If one of those sites is compromised, then all of them are.
+Too many people re-use the same password or minor variations across multiple sites. _This is a terrible idea._ If one of those sites is compromised, then all of them are.
 
 {% capture pwned %}
 
