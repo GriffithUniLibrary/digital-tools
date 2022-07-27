@@ -7,8 +7,14 @@ description: >
     Choosing the right reference manager for your workflow can make a big difference to your experience.
 # youtubeid: moJgWrD6dwg
 ---
- 
- {% capture text %}
+
+{% capture relatedworkshops %}
+
+- [EndNote](https://app.secure.griffith.edu.au/events/search?sdata=endnote)
+
+{% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %} 
+
+ {% capture refmans %}
 - [EndNote](https://www.griffith.edu.au/library/study/referencing) is Griffith's supported option. [Workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) and [video resources](vimeo.com/user/82369617/folder/1569944) are available too.
 - [Zotero](https://www.zotero.org) is free and open-source. This makes it a popular option among FOSS enthusiasts.
 - [Mendeley](https://www.mendeley.com) is popular in part because of its inbuilt social network.
@@ -41,4 +47,4 @@ Zotero is Free and Open Source Software (FOSS), has a committed community of use
 {% include alert.html text=rurefman color="info" %}
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-paperclip'></i> Most popular reference managers" text=text %}
+{% include card.html header="<i class='fas fa-paperclip'></i> Most popular reference managers" text=refmans %}
