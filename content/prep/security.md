@@ -8,7 +8,17 @@ description: >
 # youtubeid: moJgWrD6dwg
 ---
 
-## Security
+## Passwords
+
+Many (too many) people re-use the same password or minor variations across multiple sites. _This is a terrible idea._ If one of those sites is compromised, then all of them are.
+
+{% capture pwned %}
+
+**Have you been 'pwned'?** Data breaches, in which thousands or millions of user accounts and passwords are leaked on the internet, happen regularly. You might be shocked to find that one of yours is among them. Enter your email address at [HaveIBeenPwned.com](https://haveibeenpwned.com) to see how many data breaches it's been involved in.
+
+{% endcapture %}
+{% include alert.html text=pwned color="danger" %}
+
 
 {% capture passphrase %}
 The best way to keep your passwords *different and secure* is to use a password manager. ⭐️ The best *password* to use is a *passphrase*.
