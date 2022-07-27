@@ -2,11 +2,15 @@
 section_id: Discovery
 nav_order: 4
 title: Capture
-topics: Document scanners
+topics: Document scanners; Voice to text
 description: >
-    Optical scanners and OCR (optical character recognition) have come a long way. You can get just as good quality results from a smartphone app as from most flatbed scanners.
+    Reduce the time-consuming task of converting analogue information like printed text and recorded voices into a digital format for analysis.
 # youtubeid: moJgWrD6dwg
 ---
+
+## Scanning and OCR
+
+Document scanning and optical character recognition (OCR) has come a long way. You can get just as good quality results from a smartphone app as from most flatbed scanners.
 
 {% capture scanners %}
 
@@ -31,3 +35,47 @@ Adobe Scan is more polished and has more features, but you are more likely to ha
 
 {% endcapture %}
 {% include card.html header="<i class='fas fa-file-pdf'></i> PDF and document scanners" text=scanners %}
+
+----
+
+## Audio transcription
+
+In the not so recent past, the only option to transcribe voice recordings into text was to painstakingly do it yourself, or to pay someone else to do it. Now, there are several tools that create fast and accurate transcriptions of your interviews or other recordings.
+
+{% capture transcription %}
+
+- **[eResearch speech-to-text service](https://www.griffith.edu.au/eresearch-services/speech-to-text)**: Griffith's eResearch team offers a speech to text service to Griffith researchers on a fee for service basis ($2 per audio hour). It uses Microsoft's Azure transcription service.
+
+- **[YouTube](https://www.youtube.com)**: It turns out that YouTube is a convenient way to transcribe text, if you have no other option. You'll need to convert your audio into a video file, then upload it. YouTube will auto-caption the file.
+
+- **[Adobe Premiere Pro](https://www.adobe.com)**: Premiere Pro also has an auto-captioning feature that you can use to generate and download transcriptions from.
+
+- [Descript](https://www.descript.com): Originally a podcasting tool, Descript does a great job of transcribing and can distinguish between speakers on a recording. Two hours of transcription free per month.
+
+{% capture besttranscription %}
+**Our recommendation: eResearch**
+
+Using Griffith's service means you benefit from the support, security and file storage offered by the University, plus someone else actually does the conversion work for you! And it's quite cheap.
+
+{% endcapture %}
+
+{% include alert.html text=besttranscription color="primary" %}
+
+{% capture runneruptranscription %}
+**Runner up: Premiere Pro**
+
+If you want control over the whole process yourself, Premiere Pro is a good option. A license is free for staff. 
+
+{% endcapture %}
+
+{% include alert.html text=runneruptranscription color="info" %}
+
+{% endcapture %}
+{% include card.html header="Transcription tools" text=transcription %}
+
+{% capture voicewarning %}
+
+You will still need to review and correct your transcriptions. None of these tools are perfect. Sometimes they have difficulty with certain accents. Proper names, especially, can be missed or mistranslated.
+
+{% endcapture %}
+{% include alert.html text=voicewarning color="warning" %}

@@ -49,7 +49,7 @@ You could, but you would be missing out on a few of the key benefits of password
 
 {% capture passkeys %}
 
-Soon, there won't even be a need to keep a password manager handy, let alone remember all you passwords. A new standard being adopted and promoted by [all major technolgy vendors](https://fidoalliance.org), will allow your device (whether it's a computer or a mobile device) to generate unique, unguessable and unhackable login keys. Because they're stored by your device, you'll never forget them. And because you never see them, no scammer can ever trick you into divulging them.
+Soon, there won't even be a need to keep a password manager handy, let alone remember all you passwords. A new standard being adopted and promoted by [all major technology vendors](https://fidoalliance.org), will allow your device (whether it's a computer or a mobile device) to generate unique, unguessable and unhackable login keys. Because they're stored by your device, you'll never forget them. And because you never see them, no scammer can ever trick you into divulging them.
 
 Here's a [video from Apple's 2022 Developer Conference](https://developer.apple.com/videos/play/wwdc2022/10092/) that explains things in more depth.
 
