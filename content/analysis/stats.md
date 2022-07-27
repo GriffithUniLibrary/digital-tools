@@ -1,8 +1,8 @@
 ---
 section: Analysis
 nav_order: 2
-title: Stats
-topics: Quantitive analysis; Qualitative analysis
+title: Statistics
+topics: Quantitative analysis
 description: >
     Most research will involve data of some sort that you will need to analyse and represent.
 # youtubeid: moJgWrD6dwg

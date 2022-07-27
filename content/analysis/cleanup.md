@@ -2,7 +2,7 @@
 section_id: Analysis
 nav_order: 4
 title: Cleanup 
-topics: Open refine
+topics: OpenRefine
 description: >
     Before you really go to work on your data, you should be sure that it is clean and usable.
 # youtubeid: moJgWrD6dwg
@@ -13,7 +13,7 @@ description: >
 
 Want to try it out? 
 
-{% include button.html text="Go to the OpenRefine activity" link="../activity-openrefine.html" color="info" %}
+{% include button.html text="Go to the OpenRefine activity" link="/content/activity-openrefine.html" color="info" %}
 
 {% endcapture %}
 

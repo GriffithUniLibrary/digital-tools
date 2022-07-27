@@ -27,6 +27,8 @@ Managing your profile and professional relationships is as important as your act
 
 - **[Twitter](https://twitter.com)**: using hashtags to livetweet conferences is a favourite of researchers.
 
+- **[Mastodon](https://joinmastodon.org)**: A federated (meaning many independent but interconnected instances) microblogging (i.e. 'twitter-esque') service. There are many Mastodon servers that might be of interest to you, for example [Scholar Social](https://scholar.social/about/more) is aimed specifically at academics and researchers.
+
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-bullhorn'></i> Online profile tools" text=profiletools %}

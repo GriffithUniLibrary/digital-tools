@@ -2,7 +2,7 @@
 section: Analysis
 nav_order: 3
 title: Text analysis 
-topics: Example Topic; Another Example
+topics: Sentiment analysis; Concept mapping
 description: >
     The analysis of 'text as data' is becoming increasingly commonplace. It is a key aspect of the Digital Humanities field.
 # youtubeid: moJgWrD6dwg
