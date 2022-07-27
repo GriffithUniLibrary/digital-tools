@@ -1,7 +1,7 @@
 ---
 section: Discovery
 nav_order: 2
-title: Automated search
+title: Literature search
 topics: Citation trees; 
 description: >
     This text is a 'section description'. Directly below this is an example section video embed. This demonstrates the front matter options in action.
