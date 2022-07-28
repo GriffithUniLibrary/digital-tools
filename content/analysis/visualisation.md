@@ -92,4 +92,4 @@ var myChart = new Chart(ctx, {
 
 Activity: Want to try out some data visualisation? Of course you do!
 
-{% include button.html text="Go to the Tableau activity" link="../activity-tableau.html" color="info" %}
+{% include button.html text="Go to the Tableau activity" link="/content/activity-tableau.html" color="info" %}
