@@ -33,7 +33,10 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-eye'></i> Data visualisation tools" text=dataviz %}
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture vizheader %}{% include icon.html icon='bar-chart-fill' %} Data visualisation tools{% endcapture %}
+
+{% include card.html header=vizheader text=dataviz %}
 
 {% capture chartjs %}
 <div>
@@ -82,7 +85,10 @@ var myChart = new Chart(ctx, {
 </script>
 {% endcapture %}
 
-{% include card.html header="<i class='bi bi-chart-bar'></i> Sample Chart.js output" text=chartjs %}
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture chartjsheader %}{% include icon.html icon='graph-up' %} Sample Chart.js output{% endcapture %}
+
+{% include card.html header=chartjsheader text=chartjs %}
 
 Activity: Want to try out some data visualisation? Of course you do!
 

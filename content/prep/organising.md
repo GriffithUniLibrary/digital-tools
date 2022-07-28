@@ -39,7 +39,10 @@ Obsidian is free and open source, and has many plug-ins that extend its capabili
 
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes img="Roam-Group-min.png" %}
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture pkmheader %}{% include icon.html icon='kanban' %} Connected note taking apps{% endcapture %}
+
+{% include card.html header=pkmheader text=connectednotes img="Roam-Group-min.png" %}
 
 ___
 

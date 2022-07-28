@@ -21,4 +21,8 @@ description: >
 - **[Authorea](https://www.authorea.com)**: Billed as 'Google Docs for scientists', automatic journal submission.
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-pencil-alt'></i> Composition tools" text=compostition %}
+
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture wordheader %}{% include icon.html icon='pencil-square' %} Composition tools{% endcapture %}
+
+{% include card.html header=wordheader text=compostition %}

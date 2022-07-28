@@ -30,7 +30,11 @@ All of the programming text editors above support Markdown. Below are some dedic
 - **[Marked 2 (Mac)](https://marked2app.com)**
 
 {% endcapture %}
-{% include card.html header="<i class='fab fa-markdown'></i> Markdown editors" text=markdowntools %}
+
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture mdheader %}{% include icon.html icon='markdown-fill' %} Markdown editors{% endcapture %}
+
+{% include card.html header=mdheader text=markdowntools %}
 
 ## LaTeX
 
@@ -51,7 +55,11 @@ Check out this helpful [guide to getting started with LaTeX](https://guides.nyu.
 - **[TeXShop](https://pages.uoregon.edu/koch/texshop/)**: A venerable Mac-based LaTex editor. 
 
 {% endcapture %}
-{% include card.html header="LaTeX composition tools" text=latextools img="latexit.png" %}
+
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture texheader %}{% include icon.html icon='braces' %} LaTeX composition tools{% endcapture %}
+
+{% include card.html header=texheader text=latextools img="latexit.png" %}
 
 ## Pandoc
 

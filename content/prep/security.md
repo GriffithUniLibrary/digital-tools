@@ -74,4 +74,7 @@ Expect passkeys to become a login option for many of the major technology platfo
 {% include alert.html text=loginalert color="warning" %}
 
 {% endcapture %}
-{% include card.html header="About passkeys" text=passkeys %}
+
+{% capture passkeyheader %}{% include icon.html icon='key' %} About passkeys{% endcapture %}
+
+{% include card.html header=passkeyheader text=passkeys %}

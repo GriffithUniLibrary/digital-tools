@@ -38,7 +38,11 @@ Microsoft's editor is free, highly extensible (meaning it has lots of plugins to
 {% include alert.html text=besttext color="primary" %}
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-superscript'></i> Code editors" text=editors img="code-editor.png" %}
+
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture codeheader %}{% include icon.html icon='code-slash' %} Code editors{% endcapture %}
+
+{% include card.html header=codeheader text=editors img="code-editor.png" %}
 
 {% capture environments %}
 
@@ -62,7 +66,9 @@ Microsoft's editor is free, highly extensible (meaning it has lots of plugins to
 
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-bug'></i> Development languages and environments" text=environments %}
+{% capture devheader %}{% include icon.html icon='bug' %} Development languages and environments{% endcapture %}
+
+{% include card.html header=devheader text=environments %}
 
 {% capture programminghelp %}
 **Ways to get programming help at Griffith:**

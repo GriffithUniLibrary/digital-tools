@@ -8,11 +8,12 @@ description: >
 # youtubeid: moJgWrD6dwg
 ---
 
-## Where will your precious data live?
-
+{% capture aboutstorage %}
 Your data storage location is critical. It needs to be three things: reliable, secure, and backed up.
+{% endcapture %}
+{% include alert.html text=aboutstorage color="warning" %}
 
-### Reliability
+## Reliability
 
 {% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
 
@@ -47,7 +48,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage-cropped.png" %}
 ___
 
-## Keeping more than one perfect copy of your data
+## Backup
 
 {% capture warning %}
 **Remember:** sync is not the same as backup!
