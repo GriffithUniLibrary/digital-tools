@@ -12,6 +12,8 @@ description: >
 
 - [EndNote](https://app.secure.griffith.edu.au/events/search?sdata=endnote)
 
+{% endcapture %}
+
 {% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %} 
 
  {% capture refmans %}
@@ -35,7 +37,6 @@ Not everybody loves using EndNote, but you can get a free copy along with techni
 {% endcapture %}
 
 {% include alert.html text=bestrefman color="primary" %}
-
 
 {% capture rurefman %}
 **Runner up: Zotero**
