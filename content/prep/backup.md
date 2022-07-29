@@ -15,9 +15,9 @@ Your data storage location is critical. It needs to be three things: reliable, s
 
 ## Reliability
 
-{% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
+It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'.
 
-It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'. 
+{% include modal.html button="What do you mean by 'reliability'?" color="secondary" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
 
 {% capture syncoptions %}
 - **[Cloudstor](https://cloudstor.aarnet.edu.au)**: powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
@@ -42,7 +42,13 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 {% include modal.html button="Watch the sign in process" color="success" title="Signing in to Cloudstor" text=ytsignin %}
 
-{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
+{% capture relatedworkshops %}
+
+- [Research data management](https://griffithunilibrary.github.io/research-data-management/)
+
+{% endcapture %}
+
+{% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %}
 
 {% endcapture %}
 
