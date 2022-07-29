@@ -80,7 +80,7 @@ We base our recommendations on a balance of factors, including:
 
 Some pages include optional activities that you can undertake. They are indicated by a button on the page, like this: 
 
-{% include button.html text="Go to this activity" link="" color="primary" size=lg %}
+{% include button.html text="Go to this activity" link="#" color="primary" size=lg %}
 
 ----
 

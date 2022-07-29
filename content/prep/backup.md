@@ -26,12 +26,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 - **[OneDrive](https://griffitheduau-my.sharepoint.com/)**: 1TB of space is provided to you by Griffith. Integrates with other Microsoft 365 services.
 
-{% capture note %}
-**Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
-{% endcapture %}
-{% include alert.html text=note color="info" %}
-
-- **[Dropbox](https://www.dropbox.com/)**
+- **[Dropbox](https://www.dropbox.com/)**: Everyone knows this one too.
 
 {% capture cloudstor %}
 **Our recommendation: AARNet Cloudstor**
@@ -40,6 +35,12 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% endcapture %}
 
 {% include alert.html text=cloudstor color="primary" %}
+
+{% capture ytsignin %}
+{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
+{% endcapture %}
+
+{% include modal.html button="Watch the sign in process" color="success" title="Signing in to Cloudstor" text=ytsignin %}
 
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
 
