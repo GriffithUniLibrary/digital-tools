@@ -34,7 +34,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 {% endcapture %}
 
-{% include alert.html text=cloudstor color="dark" %}
+{% include alert.html text=cloudstor color="primary" %}
 
 {% capture ytsignin %}
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
@@ -42,17 +42,16 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 {% include modal.html button="Watch the sign in process" color="success" title="Signing in to Cloudstor" text=ytsignin %}
 
-{% capture relatedworkshops %}
-
-- [Research data management](https://griffithunilibrary.github.io/research-data-management/)
-
-{% endcapture %}
-
-{% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %}
-
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage-cropped.png" %}
+
+<!-- Related workshops code snippet -->
+{% capture relatedworkshops %}
+- [Research data management](https://griffithunilibrary.github.io/research-data-management/)
+{% endcapture %}
+{% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %}
+<!-- End related workshops code snippet -->
 ___
 
 ## Backup
