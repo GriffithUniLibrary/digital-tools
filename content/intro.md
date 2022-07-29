@@ -19,15 +19,15 @@ title: Introduction
 {% capture header %}{% include icon.html icon='mortarboard-fill' %} Learning outcomes{% endcapture %}
 {% include card.html header=header text=outcomes %}
 
-This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) {% include icon.html icon="twitter" %} and [Bosnan](https://twitter.com/jeroenbosman) {% include icon.html icon="twitter" %} of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
-
-Of course, a real research project does not neatly move from one phase to the next! You will be moving between them all the time. They are convenient categories in which we can place the kinds of tools that assist you when you are doing that kind of work.
-
 ----
 
 ## Structure of the workshop (and this site)
 
-This workshop is more of a show-and-tell than an interactive workshop (in the online version, this might be more akin to browsing). The reason is that, with the variety of researchers that attend this workshop, we cannot be sure that all tools will be relevant to all participants (in fact, we can be sure that the opposite will be true!) Therefore, we will be presenting you with a selection of tools that we think may be useful, and you are welcome to try, adopt and ask questions about any of them.
+This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) {% include icon.html icon="twitter" %} and [Bosnan](https://twitter.com/jeroenbosman) {% include icon.html icon="twitter" %} of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
+
+Of course, a real research project does not neatly move from one phase to the next! You will be moving between them all the time. They are convenient categories in which we can place the kinds of tools that assist you when you are doing that kind of work.
+
+This workshop is more of a show-and-tell than an interactive workshop. This is because we know not all tools will be relevant to all participants. Therefore, we present you with a selection of tools that we think may be useful. You are welcome to try, adopt and ask questions about any of them.
 
 Each page contains one or more topics, separated on the page by a horizontal line. The topics are listed at the top of each page, plus in the table of contents shown on the front page. Each topic presents some explanatory text, followed by a list of tools relevant to that topic. Then list will usually conclude with a recommendation. It looks like this:
 
@@ -49,13 +49,14 @@ Each page contains one or more topics, separated on the page by a horizontal lin
 <!-- This creates the heading text for the card, along with the icon -->
 {% capture exampleheader %}{% include icon.html icon='balloon-heart-fill' %} An example list of tools{% endcapture %}
 
-{% include card.html header=exampleheader text=text %}
+{% include card.html header=exampleheader text=exampletoolslist %}
 
 ### How we recommend things
 
 We base our recommendations on a balance of factors, including:
 
 - **Cost:** Is it free, or can be obtained for free?
+- **Availability:** Is it available on all computing platforms, and easy to download and run?
 - **Support:** Is support available through the University, or some other way?
 - **Ease of use:** It is simple to get started if you're not familiar with it?
 - **Open source:** All other things being equal, we will favour the open source option.
@@ -73,13 +74,13 @@ Some pages include optional activities that you can undertake. They are indicate
 
 {% include button.html text="Go to this activity" link="" color="primary" size=lg %}
 
+----
+
 ## Preparation
 
 {% capture preparationblock %}
 
-<!-- {% include button.html text="Show me what I need to install" link="content/workshop-prep.html" color="primary" %} -->
-
-{% include alert.html text="There are a few pieces of software to install before you start this workshop, so you can take part in the activities." color="primary" %}
+ There are a few pieces of software to install before you start this workshop, so you can take part in the activities. Click on each heading below to read instructions on installation.
 
 {% capture installteams %}
 
