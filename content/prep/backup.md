@@ -22,9 +22,15 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% capture syncoptions %}
 - **[Cloudstor](https://cloudstor.aarnet.edu.au)**: powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 
-- **[Google Drive](https://www.google.com/drive/)**: Everyone knows this one. 
+{% capture ytsignin %}
+{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
+{% endcapture %}
+
+{% include modal.html button="Watch the sign in process" color="success" title="Signing in to Cloudstor" text=ytsignin %}
 
 - **[OneDrive](https://griffitheduau-my.sharepoint.com/)**: 1TB of space is provided to you by Griffith. Integrates with other Microsoft 365 services.
+
+- **[Google Drive](https://www.google.com/drive/)**: Everyone knows this one.
 
 - **[Dropbox](https://www.dropbox.com/)**: Everyone knows this one too.
 
@@ -36,22 +42,16 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 {% include alert.html text=cloudstor color="primary" %}
 
-{% capture ytsignin %}
-{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
-{% endcapture %}
-
-{% include modal.html button="Watch the sign in process" color="success" title="Signing in to Cloudstor" text=ytsignin %}
-
-{% endcapture %}
-
-{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage-cropped.png" %}
-
 <!-- Related workshops code snippet -->
 {% capture relatedworkshops %}
 - [Research data management](https://griffithunilibrary.github.io/research-data-management/)
 {% endcapture %}
 {% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %}
 <!-- End related workshops code snippet -->
+
+{% endcapture %}
+
+{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage-cropped.png" %}
 ___
 
 ## Backup
