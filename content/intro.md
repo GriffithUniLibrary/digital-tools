@@ -25,7 +25,12 @@ title: Introduction
 
 This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) {% include icon.html icon="twitter" %} and [Bosnan](https://twitter.com/jeroenbosman) {% include icon.html icon="twitter" %} of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
+{% capture ofcourse %}
+
 Of course, a real research project does not neatly move from one phase to the next! You will be moving between them all the time. They are convenient categories in which we can place the kinds of tools that assist you when you are doing that kind of work.
+
+{% endcapture %}
+{% include alert.html text=ofcourse color="info" %}
 
 This workshop is more of a show-and-tell than an interactive workshop. This is because we know not all tools will be relevant to all participants. Therefore, we present you with a selection of tools that we think may be useful. You are welcome to try, adopt and ask questions about any of them.
 
