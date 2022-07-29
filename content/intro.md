@@ -21,7 +21,7 @@ title: Introduction
 
 ----
 
-## Structure of the workshop (and this site)
+## Structure of the workshop
 
 This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) {% include icon.html icon="twitter" %} and [Bosnan](https://twitter.com/jeroenbosman) {% include icon.html icon="twitter" %} of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
@@ -29,7 +29,9 @@ Of course, a real research project does not neatly move from one phase to the ne
 
 This workshop is more of a show-and-tell than an interactive workshop. This is because we know not all tools will be relevant to all participants. Therefore, we present you with a selection of tools that we think may be useful. You are welcome to try, adopt and ask questions about any of them.
 
-Each page contains one or more topics, separated on the page by a horizontal line. The topics are listed at the top of each page, plus in the table of contents shown on the front page. Each topic presents some explanatory text, followed by a list of tools relevant to that topic. Then list will usually conclude with a recommendation. It looks like this:
+### Structure of the site
+
+Each page on this site contains one or more topics, separated on the page by a horizontal line. The topics are listed at the top of each page, plus in the table of contents shown on the front page. Each topic presents some explanatory text, followed by a list of tools relevant to that topic. Then list will usually conclude with a recommendation. Finally, if it's relevant, there will be a list of related workshops offered by Griffith University. It looks like this:
 
 {% capture exampletoolslist %}
 
@@ -43,6 +45,16 @@ Each page contains one or more topics, separated on the page by a horizontal lin
 
 {% endcapture %}
 {% include alert.html text=examplerecommendation color="secondary" %}
+
+{% capture relatedworkshops %}
+
+- [Some great workshop](https://app.secure.griffith.edu.au/events/)
+
+- [Some other great workshop](https://app.secure.griffith.edu.au/events/)
+
+{% endcapture %}
+
+{% include accordion.html title1="Related workshops" text1=relatedworkshops open=true %}
 
 {% endcapture %}
 
