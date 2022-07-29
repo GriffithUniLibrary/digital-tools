@@ -1,21 +1,22 @@
 ---
 section_id: Preparation
 nav_order: 2
-title: Backup
+title: Data management
 topics: Storage; Reliability; Sync; Backup
 description: >
     Find a place to put your research data. Don't lose it. Keep it secure.
 # youtubeid: moJgWrD6dwg
 ---
 
-{% capture aboutstorage %}
-Your data storage location is critical. It needs to be three things: reliable, secure, and backed up.
-{% endcapture %}
-{% include alert.html text=aboutstorage color="warning" %}
+Carefully considering your research data management early can save you a lot of headaches later. For example, your data storage location is critical. It needs to be three things: 
+
+- Reliable
+- Backed up
+- Secure
 
 ## Reliability
 
-It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'.
+It's advisable to synchronise a copy of your research data to a cloud service. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'.
 
 {% include modal.html button="What do you mean by 'reliability'?" color="secondary" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
 
@@ -56,6 +57,8 @@ ___
 
 ## Backup
 
+You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
+
 {% capture warning %}
 **Remember:** sync is not the same as backup!
 {% endcapture %}
@@ -66,8 +69,6 @@ Because when you're syncing, if you delete something from your computer, it's al
 {% endcapture %}
 
 {% include modal.html button="Really? Why not?" color="primary" title="Why is a sync not a backup?" text=backupmodal %}
-
-You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
 
 {% capture backupoptions %}
  - **[Griffith Research Storage](https://research-storage.griffith.edu.au)**: built on the same technology as Cloudstor and is very fast. Research Vault is available for you to store data you are no longer actively using. Here is a [handy questionnaire](https://research-storage.griffith.edu.au/compare) to help you decide Griffith Research Storage can help you.
