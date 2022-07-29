@@ -41,16 +41,14 @@ Each page on this site contains one or more topics, separated on the page by a h
 
 {% capture examplerecommendation %}
 
-**Our recommendation:** Really great tool. We think this is going to be the most useful for most researchers. Of course, you should make a judgement based on your own circumstances!
+**Our recommendation:** Really great tool #2. We think this is going to be the most useful for most researchers. Of course, you should make a judgement based on your own circumstances!
 
 {% endcapture %}
-{% include alert.html text=examplerecommendation color="secondary" %}
+{% include alert.html text=examplerecommendation color="primary" %}
 
 {% capture relatedworkshops %}
 
 - [Some great workshop](https://app.secure.griffith.edu.au/events/)
-
-- [Some other great workshop](https://app.secure.griffith.edu.au/events/)
 
 {% endcapture %}
 
@@ -77,18 +75,11 @@ We base our recommendations on a balance of factors, including:
 
 Some pages include optional activities that you can undertake. They are indicated by a button on the page, like this: 
 
-{% capture activities %}
-
- - Data cleansing with OpenRefine
- - Data visualisation with Tableau {% endcapture %}
- 
-{% include card.html header="Activities" text=activities %}
-
 {% include button.html text="Go to this activity" link="" color="primary" size=lg %}
 
 ----
 
-## Preparation
+## Workshop preparation
 
 {% capture preparationblock %}
 
