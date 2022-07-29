@@ -7,11 +7,11 @@ title: Introduction
 
 | By the end of the workshop, you should be able to: |
 | -----|
-|Identify the different digital tools appropriate to various stages of higher degree research; |
-| Identify and select at least one new digital tool appropriate to your own research workflow; |
-| Explain how research data can be protected using security and backup tools; |
-| Demonstrate simple data visualisation techniques using sample data; |
-| Locate ongoing technical and research support from the University. |
+|**Understand** that different digital tools appropriate to various stages of higher degree research; |
+| **Identify** and select at least one new digital tool appropriate to your own research workflow; |
+| **Explain** how research data can be protected using security and backup tools; |
+| **Demonstrate** simple data visualisation techniques using sample data; |
+| **Locate** ongoing technical and research support from the University. |
 {:.table}
 
 {% endcapture %}
@@ -23,16 +23,55 @@ This workshop has five sections, reflecting the phases of research outlined by [
 
 Of course, a real research project does not neatly move from one phase to the next! You will be moving between them all the time. They are convenient categories in which we can place the kinds of tools that assist you when you are doing that kind of work.
 
-## Workshop structure
+----
 
-This workshop has more show-and-tell about it (in the online version, this might be more akin to browsing) than a typical workshop. The reason is that, with the variety of researchers that attend this workshop, we cannot be sure that all tools will be relevant to all participants (in fact, we can be sure that the opposite will be true!) Therefore, we will be presenting you with a selection of tools that we think may be useful, and you are welcome to try, adopt and ask questions about any of them.
+## Structure of the workshop (and this site)
+
+This workshop is more of a show-and-tell than an interactive workshop (in the online version, this might be more akin to browsing). The reason is that, with the variety of researchers that attend this workshop, we cannot be sure that all tools will be relevant to all participants (in fact, we can be sure that the opposite will be true!) Therefore, we will be presenting you with a selection of tools that we think may be useful, and you are welcome to try, adopt and ask questions about any of them.
+
+Each page contains one or more topics, separated on the page by a horizontal line. The topics are listed at the top of each page, plus in the table of contents shown on the front page. Each topic presents some explanatory text, followed by a list of tools relevant to that topic. Then list will usually conclude with a recommendation. It looks like this:
+
+{% capture exampletoolslist %}
+
+- **[Some great tool](https:www.griffith.edu.au)**: Brief description of the tool.
+
+- **[Another really great tool](https:www.griffith.edu.au)**: Another brief description.
+
+{% capture examplerecommendation %}
+
+**Our recommendation:** Really great tool. We think this is going to be the most useful for most researchers. Of course, you should make a judgement based on your own circumstances!
+
+{% endcapture %}
+{% include alert.html text=examplerecommendation color="secondary" %}
+
+{% endcapture %}
+
+<!-- This creates the heading text for the card, along with the icon -->
+{% capture exampleheader %}{% include icon.html icon='balloon-heart-fill' %} An example list of tools{% endcapture %}
+
+{% include card.html header=exampleheader text=text %}
+
+### How we recommend things
+
+We base our recommendations on a balance of factors, including:
+
+- **Cost:** Is it free, or can be obtained for free?
+- **Support:** Is support available through the University, or some other way?
+- **Ease of use:** It is simple to get started if you're not familiar with it?
+- **Open source:** All other things being equal, we will favour the open source option.
+
+### Activities
+
+Some pages include optional activities that you can undertake. They are indicated by a button on the page, like this: 
 
 {% capture activities %}
 
  - Data cleansing with OpenRefine
  - Data visualisation with Tableau {% endcapture %}
  
-{% include card.html header="Workshop activities" text=activities %}
+{% include card.html header="Activities" text=activities %}
+
+{% include button.html text="Go to this activity" link="" color="primary" size=lg %}
 
 ## Preparation
 
