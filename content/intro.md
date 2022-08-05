@@ -74,6 +74,7 @@ We base our recommendations on a balance of factors, including:
 - **Availability:** Is it available on all computing platforms, and easy to download and run?
 - **Support:** Is support available through the University, or some other way?
 - **Ease of use:** It is simple to get started if you're not familiar with it?
+- **Data hygiene:** Are we reasonably confident that your data won’t be misused?
 - **Open source:** All other things being equal, we will favour the open source option.
 
 ### Activities
