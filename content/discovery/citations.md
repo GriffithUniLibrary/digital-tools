@@ -1,6 +1,6 @@
 ---
 section: Discovery
-nav_order: 2
+nav_order: 3
 title: Literature search
 topics: Citation trees; literature maps
 description: >
