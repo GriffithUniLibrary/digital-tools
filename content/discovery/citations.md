@@ -4,23 +4,17 @@ nav_order: 3
 title: Literature search
 topics: Citation trees; literature maps
 description: >
-    TThe increasing availability of open scholarly metadata has made a new generation of citation mapping tools possible. 
+    The increasing availability of open scholarly metadata, along with the ability of AI to make thematic connections between papers, has made a new generation of citation mapping tools possible.
 # youtubeid: moJgWrD6dwg
 ---
 
-{% capture citationtools %}
+## Automating your paper discovery
+
 You can use tools to recommend similar or related papers to those you have. Some of them also help to visualise connections between the papers in your field or research project. 
 
-- **[Google Scholar](https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en)**: Create alerts in Google Scholar so you can be emailed when papers mathching specific keywords are published. A broad approach that might result in some irrelevant papers, but highly automated and convenient. 
+- **[Google Scholar](https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en)**: Create alerts in Google Scholar so you can be emailed when papers mathching specific keywords are published. A broad approach that might result in some irrelevant papers, but highly automated and convenient.
 
-{% capture bestcitengine %}
-**Our recommendation: All of them!**
-
-No one of these tools does everything the others do. Why not set them all up so you have the best chance of locating the latest and most relevant papers in your field? Just make sure to define your Google Scholar alert keywords narrowly so you don't get swamped!
-
-{% endcapture %}
-
-{% include alert.html text=bestcitengine color="primary" %}
+- **[Elicit](https://elicit.org)**: Enter your research question and Elicit will provide a list of relevant papers. Avoids the need to use exact keywords since it uses Language models like ChatGPT-3.
 
 {% capture citmaps %}
 
@@ -46,5 +40,10 @@ No one of these tools does everything the others do. Why not set them all up so 
 {% endcapture %}
 {% include card.html header="Science mapping tools" text=scimaps %}
 
+{% capture bestcitengine %}
+**Our recommendation: All of them!**
+
+No one of these tools does everything the others do. Why not set them all up so you have the best chance of locating the latest and most relevant papers in your field? Just make sure to define your Google Scholar alert keywords narrowly so you don't get swamped.
 {% endcapture %}
-{% include card.html header="<i class='fas fa-tree'></i> Automating your paper discovery" text=citationtools img="connected-papers-cropped.png" %}
+
+{% include alert.html text=bestcitengine color="primary" %}
