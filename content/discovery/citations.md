@@ -10,13 +10,13 @@ description: >
 
 ## Automating your paper discovery
 
-You can use tools to recommend similar or related papers to those you have. Some of them also help to visualise connections between the papers in your field or research project. 
+Don't just rely on the old methods of database searching! You can use automated tools to find and recommend similar or related papers to those you have. Some of them also help to visualise connections between the papers in your field or research project.
+
+{% capture citmaps %}
 
 - **[Google Scholar](https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en)**: Create alerts in Google Scholar so you can be emailed when papers mathching specific keywords are published. A broad approach that might result in some irrelevant papers, but highly automated and convenient.
 
 - **[Elicit](https://elicit.org)**: Enter your research question and Elicit will provide a list of relevant papers. Avoids the need to use exact keywords since it uses Language models like ChatGPT-3.
-
-{% capture citmaps %}
 
 - **[Connected Papers](https://www.connectedpapers.com)**: A visual tool to help researchers and applied scientists find and explore papers relevant to their field of work. Papers are arranged according to their similarity. Even papers that do not directly cite each other can be strongly connected and very closely positioned. Connected Papers is not a citation tree.
 
@@ -27,7 +27,7 @@ You can use tools to recommend similar or related papers to those you have. Some
 - **[Citation Gecko](https://www.citationgecko.com)**: Searches for and arranges related papers on a timeline
 
 {% endcapture %}
-{% include card.html header="Citation based literature mapping tools" text=citmaps %}
+{% include card.html header="Automated paper discovery and literature mapping" text=citmaps img="connected-papers-cropped.png" %}
 
 {% capture scimaps %}
 
