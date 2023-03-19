@@ -23,11 +23,14 @@ It's advisable to synchronise a copy of your research data to a cloud service. C
 {% capture syncoptions %}
 - **[Cloudstor](https://cloudstor.aarnet.edu.au)**: powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 
-{% capture ytsignin %}
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
-{% endcapture %}
 
-{% include modal.html button="Watch the sign in process" color="success" title="Signing in to Cloudstor" text=ytsignin %}
+{% capture cloudstorwarning %}
+
+Warning: AARNet has advised that it is (decommissioning its Cloudstor service)[https://support.aarnet.edu.au/hc/en-us/articles/5697089309711] at the end of 2023. If you have data stored there you should investigate an alternative storage location.
+
+{% endcapture %}
+{% include alert.html text=cloudstorwarning color="warning" %}
 
 - **[OneDrive](https://griffitheduau-my.sharepoint.com/)**: 1TB of space is provided to you by Griffith. Integrates with other Microsoft 365 services.
 
@@ -36,9 +39,9 @@ It's advisable to synchronise a copy of your research data to a cloud service. C
 - **[Dropbox](https://www.dropbox.com/)**: Everyone knows this one too.
 
 {% capture cloudstor %}
-**Our recommendation: AARNet Cloudstor**
+**Our recommendation: Microsoft OneDrive**
 
-[Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
+Since Cloudstor is being decommissioned, our recommendation is to use OneDrive. You get a lot of space and it integrates with your Griffith account. Microsoft's Australian data is stored in data centers in Sydney so it is subject to Australian data protection laws. 
 {% endcapture %}
 
 {% include alert.html text=cloudstor color="primary" %}
