@@ -23,11 +23,9 @@ It's advisable to synchronise a copy of your research data to a cloud service. C
 {% capture syncoptions %}
 - **[Cloudstor](https://cloudstor.aarnet.edu.au)**: powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 
-{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
-
 {% capture cloudstorwarning %}
 
-Warning: AARNet has advised that it is (decommissioning its Cloudstor service)[https://support.aarnet.edu.au/hc/en-us/articles/5697089309711] at the end of 2023. If you have data stored there you should investigate an alternative storage location.
+Warning: AARNet has advised that it is [decommissioning its Cloudstor service](https://support.aarnet.edu.au/hc/en-us/articles/5697089309711) at the end of 2023. If you have data stored there you should investigate an alternative storage location.
 
 {% endcapture %}
 {% include alert.html text=cloudstorwarning color="warning" %}
